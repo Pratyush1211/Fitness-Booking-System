@@ -9,6 +9,10 @@ import java.time.LocalTime;
 import java.util.List;
 import java.util.Queue;
 
+import org.springframework.stereotype.Component;
+
+
+@Component
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
