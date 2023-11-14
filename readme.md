@@ -2,9 +2,9 @@
 ![Kuddle Design Challenge](image-2.png)
 
 ## TO DO ##
-# Implementing same logic for Dance and Yoga Classes
-# Design the database schema and database connectivity for persistance
-# Cleaner error handling
+1.Implementing same logic for Dance and Yoga Classes
+2.Design the database schema and database connectivity for persistance
+3.Cleaner error handling
 
 
 ## FLOW FOR DEMO PURPOSES ##
