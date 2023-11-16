@@ -13,7 +13,7 @@ import lombok.Setter;
 @Component
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class CuddleProgram {
-    private GenericFeatures Yoga;
-    private GenericFeatures Gym;
-    private GenericFeatures Dance;
+    private FitnessClass Yoga;
+    private FitnessClass Gym;
+    private FitnessClass Dance;
 }

@@ -4,7 +4,7 @@ import com.kuddle.BookingSystem.data.GymDummyDataStorage;
 import com.kuddle.BookingSystem.enums.ClassCapacity;
 import com.kuddle.BookingSystem.enums.ClassStartingTime;
 import com.kuddle.BookingSystem.model.CuddleProgram;
-import com.kuddle.BookingSystem.model.GenericFeatures;
+import com.kuddle.BookingSystem.model.FitnessClass;
 import com.kuddle.BookingSystem.service.ClassBookingService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +28,7 @@ public class ClassBookingServiceImpl implements ClassBookingService {
     // single shared instance just to have persistance for the flow of operation
     // for demo purposes
     @Autowired
-    private GenericFeatures gym;
+    private FitnessClass gym;
 
     /**
      * Flow completed for GYM 
@@ -84,7 +84,7 @@ public class ClassBookingServiceImpl implements ClassBookingService {
     }
 
 
-    public boolean reachedMaxCapacity(GenericFeatures genericFeatures) {
+    public boolean reachedMaxCapacity(FitnessClass genericFeatures) {
         return genericFeatures.getUsers().size() == genericFeatures.getMaxCapacity();
     }
 
